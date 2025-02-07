@@ -24,7 +24,6 @@ This repository provides the setup for running a Jetson-based ROS2 workspace wit
 
 - **NVMe SSD** (Recommended for fast storage and space):
   - **30GB** for `kabilankb/nano_llm_ros2_kb` container image
-  - **>10GB** for model storage
 
 ## Setup Instructions
 
