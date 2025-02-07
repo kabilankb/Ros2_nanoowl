@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/nanoowl/nanoowl.egg-info
+writing ../../build/nanoowl/nanoowl.egg-info/PKG-INFO
+writing dependency_links to ../../build/nanoowl/nanoowl.egg-info/dependency_links.txt
+writing entry points to ../../build/nanoowl/nanoowl.egg-info/entry_points.txt
+writing requirements to ../../build/nanoowl/nanoowl.egg-info/requires.txt
+writing top-level names to ../../build/nanoowl/nanoowl.egg-info/top_level.txt
+writing manifest file '../../build/nanoowl/nanoowl.egg-info/SOURCES.txt'
+reading manifest file '../../build/nanoowl/nanoowl.egg-info/SOURCES.txt'
+writing manifest file '../../build/nanoowl/nanoowl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kabilankb/ros2_nanoowl/build/nanoowl/build
+creating /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib
+creating /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl
+copying nanoowl/__init__.py -> /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl
+copying nanoowl/nanoowl_ros2.py -> /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl
+running install
+running install_lib
+creating /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl
+copying /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl/__init__.py -> /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl
+copying /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl/nanoowl_ros2.py -> /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl
+byte-compiling /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl/nanoowl_ros2.py to nanoowl_ros2.cpython-310.pyc
+running install_data
+creating /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index
+creating /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index/resource_index
+creating /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index/resource_index/packages
+copying resource/nanoowl -> /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index/resource_index/packages
+copying package.xml -> /home/kabilankb/ros2_nanoowl/install/nanoowl/share/nanoowl
+running install_egg_info
+Copying ../../build/nanoowl/nanoowl.egg-info to /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nanoowl_ros2 script to /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/nanoowl
+writing list of installed files to '/home/kabilankb/ros2_nanoowl/build/nanoowl/install.log'

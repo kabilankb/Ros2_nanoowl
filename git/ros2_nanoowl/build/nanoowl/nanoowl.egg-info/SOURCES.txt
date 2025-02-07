@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/nanoowl/nanoowl.egg-info/PKG-INFO
+../../build/nanoowl/nanoowl.egg-info/SOURCES.txt
+../../build/nanoowl/nanoowl.egg-info/dependency_links.txt
+../../build/nanoowl/nanoowl.egg-info/entry_points.txt
+../../build/nanoowl/nanoowl.egg-info/requires.txt
+../../build/nanoowl/nanoowl.egg-info/top_level.txt
+../../build/nanoowl/nanoowl.egg-info/zip-safe
+nanoowl/__init__.py
+nanoowl/nanoowl_ros2.py
+resource/nanoowl
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

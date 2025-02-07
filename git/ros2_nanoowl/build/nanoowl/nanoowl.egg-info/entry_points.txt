@@ -1,0 +1,3 @@
+[console_scripts]
+nanoowl_ros2 = nanoowl.nanoowl_ros2:main
+

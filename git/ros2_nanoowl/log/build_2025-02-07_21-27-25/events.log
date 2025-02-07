@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000665] (nanoowl) JobQueued: {'identifier': 'nanoowl', 'dependencies': OrderedDict()}
+[0.000704] (nanoowl) JobStarted: {'identifier': 'nanoowl'}
+[0.099592] (-) TimerEvent: {}
+[0.199848] (-) TimerEvent: {}
+[0.300203] (-) TimerEvent: {}
+[0.400693] (-) TimerEvent: {}
+[0.500982] (-) TimerEvent: {}
+[0.601300] (-) TimerEvent: {}
+[0.701597] (-) TimerEvent: {}
+[0.801901] (-) TimerEvent: {}
+[0.871048] (nanoowl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nanoowl', 'build', '--build-base', '/home/kabilankb/ros2_nanoowl/build/nanoowl/build', 'install', '--record', '/home/kabilankb/ros2_nanoowl/build/nanoowl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kabilankb/ros2_nanoowl/src/nanoowl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'LANGUAGE': 'en_IN:en', 'USER': 'kabilankb', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/spot-cpp-sdk/lib:/opt/ros/humble/lib', 'HOME': '/home/kabilankb', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/kabilankb/ros2_nanoowl/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'HOMEBREW_PREFIX': '/home/linuxbrew/.linuxbrew', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4992', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'NVM_DIR': '/home/kabilankb/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'INFOPATH': '/home/linuxbrew/.linuxbrew/share/info:', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kabilankb', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kabilankb', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/kabilankb/workspaces/isaac_ros-dev/', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/kabilankb/miniconda3/bin:/home/kabilankb/miniconda3/condabin:/opt/ros/humble/bin:/home/kabilankb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kabilankb-Dell-G16-7630:@/tmp/.ICE-unix/2410,unix/kabilankb-Dell-G16-7630:/tmp/.ICE-unix/2410', 'HOMEBREW_CELLAR': '/home/linuxbrew/.linuxbrew/Cellar', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/de6280f5_e338_45b4_8bea_6b83f167290e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'ROS_DOMAIN': '10', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UZJH12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.129', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/kabilankb/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kabilankb/ros2_nanoowl/build/nanoowl', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/kabilankb/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kabilankb/ros2_nanoowl/build/nanoowl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/kabilankb/isaac-sim/room_gen/config:/home/kabilankb/isaac-sim/room_gen/config', 'HOMEBREW_REPOSITORY': '/home/linuxbrew/.linuxbrew/Homebrew', 'CONDA_PREFIX': '/home/kabilankb/miniconda3', 'COLCON': '1', 'VTE_VERSION': '6800', 'NVM_RC_VERSION': ''}, 'shell': False}
+[0.901983] (-) TimerEvent: {}
+[1.002231] (-) TimerEvent: {}
+[1.102520] (-) TimerEvent: {}
+[1.178769] (nanoowl) StdoutLine: {'line': b'running egg_info\n'}
+[1.179479] (nanoowl) StdoutLine: {'line': b'creating ../../build/nanoowl/nanoowl.egg-info\n'}
+[1.179800] (nanoowl) StdoutLine: {'line': b'writing ../../build/nanoowl/nanoowl.egg-info/PKG-INFO\n'}
+[1.179976] (nanoowl) StdoutLine: {'line': b'writing dependency_links to ../../build/nanoowl/nanoowl.egg-info/dependency_links.txt\n'}
+[1.180125] (nanoowl) StdoutLine: {'line': b'writing entry points to ../../build/nanoowl/nanoowl.egg-info/entry_points.txt\n'}
+[1.180226] (nanoowl) StdoutLine: {'line': b'writing requirements to ../../build/nanoowl/nanoowl.egg-info/requires.txt\n'}
+[1.180341] (nanoowl) StdoutLine: {'line': b'writing top-level names to ../../build/nanoowl/nanoowl.egg-info/top_level.txt\n'}
+[1.180544] (nanoowl) StdoutLine: {'line': b"writing manifest file '../../build/nanoowl/nanoowl.egg-info/SOURCES.txt'\n"}
+[1.182207] (nanoowl) StdoutLine: {'line': b"reading manifest file '../../build/nanoowl/nanoowl.egg-info/SOURCES.txt'\n"}
+[1.182786] (nanoowl) StdoutLine: {'line': b"writing manifest file '../../build/nanoowl/nanoowl.egg-info/SOURCES.txt'\n"}
+[1.182921] (nanoowl) StdoutLine: {'line': b'running build\n'}
+[1.183096] (nanoowl) StdoutLine: {'line': b'running build_py\n'}
+[1.183214] (nanoowl) StdoutLine: {'line': b'creating /home/kabilankb/ros2_nanoowl/build/nanoowl/build\n'}
+[1.183273] (nanoowl) StdoutLine: {'line': b'creating /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib\n'}
+[1.183399] (nanoowl) StdoutLine: {'line': b'creating /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl\n'}
+[1.183457] (nanoowl) StdoutLine: {'line': b'copying nanoowl/__init__.py -> /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl\n'}
+[1.183502] (nanoowl) StdoutLine: {'line': b'copying nanoowl/nanoowl_ros2.py -> /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl\n'}
+[1.183546] (nanoowl) StdoutLine: {'line': b'running install\n'}
+[1.183719] (nanoowl) StdoutLine: {'line': b'running install_lib\n'}
+[1.184374] (nanoowl) StdoutLine: {'line': b'creating /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl\n'}
+[1.184441] (nanoowl) StdoutLine: {'line': b'copying /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl/__init__.py -> /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl\n'}
+[1.184549] (nanoowl) StdoutLine: {'line': b'copying /home/kabilankb/ros2_nanoowl/build/nanoowl/build/lib/nanoowl/nanoowl_ros2.py -> /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl\n'}
+[1.184806] (nanoowl) StdoutLine: {'line': b'byte-compiling /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl/__init__.py to __init__.cpython-310.pyc\n'}
+[1.185011] (nanoowl) StdoutLine: {'line': b'byte-compiling /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl/nanoowl_ros2.py to nanoowl_ros2.cpython-310.pyc\n'}
+[1.185949] (nanoowl) StdoutLine: {'line': b'running install_data\n'}
+[1.185999] (nanoowl) StdoutLine: {'line': b'creating /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index\n'}
+[1.186089] (nanoowl) StdoutLine: {'line': b'creating /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index/resource_index\n'}
+[1.186139] (nanoowl) StdoutLine: {'line': b'creating /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index/resource_index/packages\n'}
+[1.186212] (nanoowl) StdoutLine: {'line': b'copying resource/nanoowl -> /home/kabilankb/ros2_nanoowl/install/nanoowl/share/ament_index/resource_index/packages\n'}
+[1.186291] (nanoowl) StdoutLine: {'line': b'copying package.xml -> /home/kabilankb/ros2_nanoowl/install/nanoowl/share/nanoowl\n'}
+[1.186341] (nanoowl) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.188034] (nanoowl) StdoutLine: {'line': b'Copying ../../build/nanoowl/nanoowl.egg-info to /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/python3.10/site-packages/nanoowl-0.0.0-py3.10.egg-info\n'}
+[1.188530] (nanoowl) StdoutLine: {'line': b'running install_scripts\n'}
+[1.202594] (-) TimerEvent: {}
+[1.207707] (nanoowl) StdoutLine: {'line': b'Installing nanoowl_ros2 script to /home/kabilankb/ros2_nanoowl/install/nanoowl/lib/nanoowl\n'}
+[1.207986] (nanoowl) StdoutLine: {'line': b"writing list of installed files to '/home/kabilankb/ros2_nanoowl/build/nanoowl/install.log'\n"}
+[1.228403] (nanoowl) CommandEnded: {'returncode': 0}
+[1.244662] (nanoowl) JobEnded: {'identifier': 'nanoowl', 'rc': 0}
+[1.245649] (-) EventReactorShutdown: {}
